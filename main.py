@@ -206,7 +206,7 @@ class GenAIApp:
             # show javascript alert ('generated video');
             self.update_ui_with_js()
         except Exception as e:
-            self.prompt_data['video_status'] = f'❌ Upload Failed: {e}'
+            self.prompt_data['video_status'] = f'❌ Upload Failed: {e} - {traceback.format_exc()}'
 
         self.update_ui_with_js()
 
