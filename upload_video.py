@@ -27,7 +27,7 @@ Structure:
 
     api_service_name = "youtube"
     api_version = "v3"
-    client_secrets_file = "/etc/secrets/client_secret.json"
+    client_secrets_file = os.getenv("CLIENT_SECRET_FILE")
 
     flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
         client_secrets_file, scopes)
