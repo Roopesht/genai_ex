@@ -4,7 +4,7 @@ import openai
 from nicegui import ui
 from create_video import generate_video_kling
 from upload_video import upload_video
-
+import traceback 
 
 class GenAIApp:
 
