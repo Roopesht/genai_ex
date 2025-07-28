@@ -19,6 +19,9 @@ def upload_video(file_path, title, description, tags, thumbnail_path) -> str:
 
     credentials = None
 
+    if not credentials_file:
+        raise ValueError("Missing environment variable: YOUTUBE_TOKEN_PICKLE_FILE")
+
     # Load credentials if already stored
     if os.path.exists(credentials_file):
         with open(credentials_file, 'rb') as token:
