@@ -189,8 +189,8 @@ class GenAIApp:
         return filename
 
     def create_video(self):
-        filename = self.create_video_kling()
-        #filename = "video_1753593196.mp4"
+        #filename = self.create_video_kling()
+        filename = "video.mp4"
 
         try:
             #url_text = ui.query('#website_url').props('value') or "https://yourwebsite.com"
