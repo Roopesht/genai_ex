@@ -1,7 +1,10 @@
 # 🚀 GenAI Utility: From Business Idea → Website + Video + YouTube Upload
 
 **Unlock the power of GenAI** — Transform your business idea into a stunning product website, an engaging promo video, and a ready-to-publish YouTube upload — all effortlessly, in one seamless flow!
+
+
 If you'd like to learn GenAI from the ground up, contact **Mr. Roopesh Tayaloor** by visiting [https://ojasamirai.com/training.html](https://ojasamirai.com/training.html).
+
 ---
 
 ## ✨ Features
