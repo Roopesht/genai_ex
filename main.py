@@ -64,6 +64,8 @@ class GenAIApp:
                     label="Prompt Output"
                 ).props('id=prompt_output').classes("w-full")
 
+                ui.label("Paste the above prompt into Claude AI to generate the webpage. Once it’s created, publish the page and share the URL below.").classes("mt-6 text-sm font-medium text-gray-700")
+
                 self.website_url = ui.input(
                     label="🔗 Website URL (used in video description)",
                     placeholder="https://yourbusiness.com"
